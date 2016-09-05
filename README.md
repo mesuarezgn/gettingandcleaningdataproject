@@ -25,14 +25,14 @@ In this repository you will find the following files:
 * run_analysis.R
 * tidy_data.txt
 
-## tidy_data.txt Notes
+### tidy_data.txt Notes
 In the process of the creating the final documents I went to the forums and I found that many people have different interpretations of how to arrange the data on the tidy_data.txt file. I would like to address two main threads to help my graders on the process of my evaluation:
 
-### 1. mean() vs meanFreq()
+#### 1. mean() vs meanFreq()
 
 I chose the stricted interpretation of the instructions and the tidy data only shows the variables that had the mean() substring on their names, since meanFreq() is another type of measurement. 
 
-### 2. Narrow vs Wide form
+#### 2. Narrow vs Wide form
 
 I chose the narrow reprentation of the data in order to eliminate the redundancy of each variable (one for the mean and another time for the standard deviation).
 
